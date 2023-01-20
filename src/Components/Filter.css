@@ -1,0 +1,30 @@
+.filterButton {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  margin: auto;
+  margin-right: 10px;
+}
+
+.filter {
+  display: flex;
+  width: fit-content;
+  margin: 20px;
+  font-size: 20px;
+}
+.filter > div {
+  margin-right: 40px;
+  align-self: center;
+}
+.filter > button {
+  font-size: 20px;
+}
+
+.highlight {
+  background: #e1e4ea;
+  border-radius: 20px;
+  padding: 5px 10px;
+}

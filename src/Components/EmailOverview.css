@@ -1,0 +1,49 @@
+.emailContainer {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: row;
+  border: solid 1px #cfd2dc;
+  border-radius: 10px;
+  width: 90vw;
+  /* margin: auto; */
+  /* margin-bottom: 10px; */
+  padding: 10px;
+  background-color: #fff;
+  /* margin: 0 10%; */
+  margin-bottom: 20px;
+  margin-left: 100px;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.favoriteText {
+  color: #e54065;
+  margin-left: 60px;
+}
+
+.dateAndFavoriteDiv {
+  display: flex;
+}
+
+.readDiv {
+  background-color: #e1e4ea;
+}
+
+.highlightedDiv {
+  border: #e54065 solid 1px;
+  background-color: #fff;
+}
+
+.imageContainer {
+  align-self: flex-start;
+  margin: 0 20px;
+}
